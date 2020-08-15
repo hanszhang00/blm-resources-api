@@ -1,0 +1,14 @@
+runtime: nodejs10
+
+instance_class: F2
+
+env_variables:
+  HOST: "0.0.0.0"
+  NODE_ENV: "production"
+  DATABASE_NAME: "blm-resources"
+  DATABASE_USERNAME: "hans"
+  DATABASE_PASSWORD: "hans00"
+  INSTANCE_CONNECTION_NAME: "blm-resources-286221:us-central1:blm-resources"
+
+beta_settings:
+  cloud_sql_instances: "blm-resources-286221:us-central1:blm-resources"

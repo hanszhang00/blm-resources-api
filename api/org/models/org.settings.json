@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orgs",
+  "info": {
+    "name": "Org"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "website": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
