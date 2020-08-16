@@ -44,6 +44,24 @@ Strapi is a Node.js based headless CMS. Strapi is super easy to use and it has a
 
 ## Contributing content
 
-If you are interested in contributing more content, you need to have an admin account to get access to the Strapi console. Contact me [**here**](mailto:hanszhang2000@gmail.com) and I'm happy to send you the username and password!
+If you are interested in contributing more content, you need to have an admin account to get access to the Strapi console. Contact me [**here**](mailto:hanszhang2000@gmail.com) and I'm happy to send you the email and password.
+
+Currently we have three types of resourceces, BLM-related organizations, videos, and articles.
+
+- Firstly, go to the Strapi admin page at **http://www.blmresources.online/admin**
+
+<img src="assets/readme/loging-page.png">
+
+- Log in with the given email and passowrd, it will take you to the main console
+
+<img src="assets/readme/main-console.png">
+
+- Now, you can update the content of any content type. **Please do not** delete any existing resources and only add new ones.
+
+<img sec="assets/readme/new-entry.png">
+
+
+
+
 
 
