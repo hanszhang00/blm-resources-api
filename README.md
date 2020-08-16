@@ -62,6 +62,23 @@ Currently we have three types of resourceces, BLM-related organizations, videos,
 
 - In the production server, you are not able to add any media resources (image, video, etc). Feel free to leave the entry for images blank. You are also not able to alter the content type (you are **only allowed to do it in the local server**). I will sync up the local and production server periodally, and add any media resources as fit. Then these new changes will be reflected in the actual frontend Gatsby page!
 
+## API endpoints
+
+Any developers wishing to incorprate relavant BLM resources into their own projects is able to do so using our RESTful endpoints.
+
+The three main endpoints for our projects are:
+
+- **http://www.blmresources.online/orgs**
+- **http://www.blmresources.online/articles**
+- **http://www.blmresources.online/videos**
+
+You can retrieve a specific item of each category by adding`/id` to each request, where id
+id the specfic item id (integer starting from 1).
+
+You are able to know how many entries there are for each category by adding `/count` to each request, for example:
+- **http://www.blmresources.online/videos/count**
+
+
 
 
 
