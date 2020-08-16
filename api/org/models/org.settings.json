@@ -21,17 +21,6 @@
       "type": "string",
       "required": true
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files",
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "facebook": {
       "type": "string"
     },
@@ -48,6 +37,17 @@
       "type": "component",
       "repeatable": true,
       "component": "stack.stack"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
