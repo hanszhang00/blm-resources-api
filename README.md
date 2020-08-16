@@ -78,6 +78,22 @@ id the specfic item id (integer starting from 1).
 You are able to know how many entries there are for each category by adding `/count` to each request, for example:
 - **http://www.blmresources.online/videos/count**
 
+## Creating, deleting, and updating entries
+
+Creating, deleting, and updating entries directly through API requests are not allowed for security purposes. **If you have admin access** (see above), you can do any of the above directly throug the Strapi console.
+
+## Contributing
+
+This project is an open-source project. So any suggestion or feature requests are welcome. You are submit an issue directly in the project's issue page.
+
+
+## Disclaimer
+
+I have created this website in hope that more people will become educated in the BLM movement. However, the content I have cited and used might not be accurate due to typing errors, and some information might be outdated. I'm always open to correction, feedback, and improvement with good intention. Please use the website and the resources with your own discretion.
+
+## License
+
+See the [**LICENSE**](/LICENSE.md) file for license rights and limitations (MIT).
 
 
 
