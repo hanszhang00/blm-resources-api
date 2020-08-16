@@ -17,13 +17,37 @@
       "type": "text",
       "required": true
     },
-    "image": {
-      "type": "string",
-      "required": true
-    },
     "website": {
       "type": "string",
       "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stack.stack"
     }
   }
 }

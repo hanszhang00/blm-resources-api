@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_stack_stacks",
+  "info": {
+    "name": "stack",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "stack": {
+      "type": "string"
+    }
+  }
+}
