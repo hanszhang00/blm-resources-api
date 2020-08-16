@@ -60,6 +60,8 @@ Currently we have three types of resourceces, BLM-related organizations, videos,
 
 <img sec="assets/readme/new-entry.png">
 
+- In the production server, you are not able to add any media resources (image, video, etc). Feel free to leave the entry for images blank. You are also not able to alter the content type (you are **only allowed to do it in the local server**). I will sync up the local and production server periodally, and add any media resources as fit. Then these new changes will be reflected in the actual frontend Gatsby page!
+
 
 
 
