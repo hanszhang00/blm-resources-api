@@ -40,7 +40,7 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "date": {
       "type": "date",
